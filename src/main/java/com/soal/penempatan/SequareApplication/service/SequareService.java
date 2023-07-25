@@ -2,20 +2,20 @@ package com.soal.penempatan.SequareApplication.service;
 
 import org.springframework.stereotype.Service;
 
+import com.soal.penempatan.SequareApplication.model.SequareResponse;
+
 @Service
 public class SequareService {
-    public String generateSequare(int input) {
-        if(input < 3){
-            return "Nilai terlalu kecil";
-        }
-        else if(input > 9){
-            return "Nilai terlalu besar";
-        }
-        else {
-        String top = "=".repeat(input);
-        String midle = "| " + " || ".repeat(input - 3) + " |";
-        String bottom = "=".repeat(input);
-        return top + midle + bottom;
+    public SequareResponse responseData(int N) {
+        if (N < 3) {
+            return new SequareResponse("Nilai N terlalu kecil");
+        } else if (N > 9) {
+            return new SequareResponse("Nilai N terlalu besar");
+        } else {
+            String top = "=".repeat(N);
+            String midle = "| " + " || ".repeat(N - 3) + " |";
+            String bottom = "=".repeat(N);
+            return new SequareResponse(top + midle + bottom);
         }
     }
 }

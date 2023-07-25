@@ -1,5 +1,7 @@
 package com.soal.penempatan.SequareApplication.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,15 +17,12 @@ import lombok.AllArgsConstructor;
 @AllArgsConstructor
 @RequestMapping
 public class SequareController {
+    @Autowired
     private SequareService sequareService;
-    
+
     @PostMapping("/sequare")
-    public SequareResponse getInput(@RequestBody SequareRequest bodyRequest){
+    public ResponseEntity<SequareResponse> generResponse(@RequestBody SequareRequest bodyRequest) {
         int input = bodyRequest.getInput();
-        String output = sequareService.generateSequare(input);
-
-        SequareResponse response = new SequareResponse(output);
-        return response;
-
+        return ResponseEntity.ok(sequareService.responseData(input));
     }
 }
