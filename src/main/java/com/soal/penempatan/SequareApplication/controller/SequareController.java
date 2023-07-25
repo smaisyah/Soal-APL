@@ -22,7 +22,7 @@ public class SequareController {
 
     @PostMapping("/sequare")
     public ResponseEntity<SequareResponse> generResponse(@RequestBody SequareRequest bodyRequest) {
-        int input = bodyRequest.getInput();
+        int input = bodyRequest.getRequest();
         return ResponseEntity.ok(sequareService.responseData(input));
     }
 }
