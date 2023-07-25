@@ -15,14 +15,17 @@ dimana nilai N merupakan request body nya dan sequare merupahan respon body nya.
 - Package Controller digunakan untuk membuat endpoint yang akan digunakan untuk merunning aplikasi
 
 # Output Program
-- Soal number one
+## Soal number one
 ![Number_one](https://github.com/smaisyah/Soal-APL/blob/main/image/Number%20one.png)
-- Soal number two
-Jika nilai N = 2
+## Soal number two
+- Jika nilai N = 2
 ![Number two](https://github.com/smaisyah/Soal-APL/blob/main/image/N%20%3D%202.png)
-Jika nilai N = 3
+
+- Jika nilai N = 3
 ![Number two](https://github.com/smaisyah/Soal-APL/blob/main/image/N%20%3D%203.png)
-Jika nilai N = 5
+
+- Jika nilai N = 5
 ![Number two](https://github.com/smaisyah/Soal-APL/blob/main/image/N%20%3D%205.png)
-Jika nilai N = 10
+
+- Jika nilai N = 10
 ![Number two](https://github.com/smaisyah/Soal-APL/blob/main/image/N%20%3D%2010.png)
