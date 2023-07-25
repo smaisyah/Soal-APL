@@ -4,8 +4,8 @@ Terdapat 2 branch pada repository Soal-APL yaitu branch number-one dan branch nu
 ## branch-one
 Branch number-one ini merupakan hasil code dari soal nomor 1 dimana pada nilai sequare nya di tentukan berdasarkan nilai N yang diinputkan.
 
-## branch-two
-- Branch number-two ini merupakan hasil code dari soal nomor 2 yang merupakan modifier dari soal number-one dengan menambahkan request API,
+## branch main
+- Branch main ini merupakan hasil code dari soal nomor 2 yang merupakan modifier dari soal number-one dengan menambahkan request API,
 dimana nilai N merupakan request body nya dan sequare merupahan respon body nya.
 - Request body merupakan proses yang dilakukan untuk menginputkan nilai N dengan menggunakan data JSON
 - Respon body merupakan proses untuk menghasilkan nilai sequence berdasarkan nilai N yang diinputkan
