@@ -16,6 +16,7 @@ dimana nilai N merupakan request body nya dan sequare merupahan respon body nya.
 
 # Output Program
 ## Soal number one
+Pada saat menginputkan nilai tidak sesuai dengan 2 < N < 10, maka program akan melooping terus sampai nilai N yang di inputkan sesuai
 ![Number_one](https://github.com/smaisyah/Soal-APL/blob/main/image/Number%20one.png)
 ## Soal number two
 - Jika nilai N = 2
