@@ -13,9 +13,10 @@ public class Main {
             } else if (N > 9) {
                 System.out.println("Nilai N terlalu besar");
             } else {
-                String topBottom = "=".repeat(N);
-                String middle = "| "+"|| ".repeat(N-3) +"|";
-                System.out.println(topBottom + middle + topBottom);
+                String top = "=".repeat(N);
+                String middle = "| "+" || ".repeat(N-3) +"|";
+                String bottom = "=".repeat(N);
+                System.out.println(top + middle + bottom);
                 break;
             }
         }
